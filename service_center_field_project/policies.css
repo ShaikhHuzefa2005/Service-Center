@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    background-color: #697565;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #697565;
+    padding: 30px;
+    box-shadow: 0px 0px 30px #DAD4B5;
+}
+header a{
+    margin-right: 30px ;
+    text-decoration: none;
+    color: #ECDFCC;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+header a:hover{
+    background-color: #982B1C ;
+    color: #F2E8C6;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    box-shadow: 0 0 10px #982B1C;
+    font-weight: bold;
+}
+header .headline{
+    color:#ECDFCC ;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+main h1{
+    color: #DAD4B5;
+    font-family: 'Courier New', Courier, monospace;
+}
+main .container .one{
+    color: #697565;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: #DAD4B5;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: 0 0 20px #DAD4B5;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background-color: black;
+    color: #F2E8C6;
+    box-shadow: 0 0 20px black;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer div p a{
+    text-decoration: none;
+    color: #F2E8C6;
+}
+footer div div{
+    margin-left: 20px;
+}
+footer div p:hover,footer div p a:hover{
+    color: #982B1C;
+}

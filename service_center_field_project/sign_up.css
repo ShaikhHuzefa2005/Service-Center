@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    background-color: #697565;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #697565;
+    padding: 30px;
+    box-shadow: 0px 0px 30px #DAD4B5;
+}
+header a{
+    margin-right: 30px ;
+    text-decoration: none;
+    color: #ECDFCC;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+header a:hover{
+    background-color: #982B1C ;
+    color: #F2E8C6;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    box-shadow: 0 0 10px #982B1C;
+    font-weight: bold;
+}
+header .headline{
+    color:#ECDFCC ;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+section .container{
+    background-color: #DAD4B5;
+    box-shadow: 0 0 20px #DAD4B5;
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+}
+section a{
+    background-color: #697565;
+    text-decoration: none;
+    color: #DAD4B5;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+section a:hover{
+    background-color: #982B1C;
+}
+.container-two{
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background-color: black;
+    color: #F2E8C6;
+    box-shadow: 0 0 20px black;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer div p a{
+    text-decoration: none;
+    color: #F2E8C6;
+}
+footer div div{
+    margin-left: 20px;
+}
+footer div p:hover,footer div p a:hover{
+    color: #982B1C;
+}

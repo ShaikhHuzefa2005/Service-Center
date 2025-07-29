@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    background-color: #697565;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #697565;
+    padding: 30px;
+    box-shadow: 0px 0px 30px #DAD4B5;
+}
+header a{
+    margin-right: 30px ;
+    text-decoration: none;
+    color: #ECDFCC;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+header a:hover{
+    background-color: #982B1C ;
+    color: #F2E8C6;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    box-shadow: 0 0 10px #982B1C;
+    font-weight: bold;
+}
+header .headline{
+    color:#ECDFCC ;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #697565;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+main .login-container{
+    background-color: #DAD4B5;
+    padding: 30px;
+    text-align: center;
+    margin-right: 30px;
+    color: #3C3D37;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #ECDFCC;
+}
+main .login-container input{
+    padding: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-right: 200px;
+}
+main .login-container input:hover{
+    box-shadow: 0 0 20px #697565;
+}
+main .login-container a{
+    text-decoration: none;
+    background-color: #982B1C;
+    color: #F2E8C6;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+main .login-container a:hover{
+    box-shadow: 0 0 10px #982B1C;
+}
+main img{
+    width: 500px;
+    border-radius: 10px; 
+}
+.image{
+    background-color: #DAD4B5;
+    padding: 10px;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 20px #ECDFCC;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+aside,article{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    color:#ECDFCC ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+aside .one,article .one{
+    font-size: 30px;
+}
+aside .two{
+    font-size: 20px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 100px;
+    text-align: center;
+}
+section div img{
+    width: 200px;
+}
+section div{
+    width: 280px;
+    border-radius: 20px;
+    background-color: #DAD4B5;
+    transition-duration: 0.3s ;
+}
+section div:hover{
+    box-shadow: 0 0 20px #DAD4B5;
+    padding: 20px;
+    transition-duration: 0.3s ;
+}
+section .one{
+    font-size: 25px;
+    color: #3C3D37;
+}
+section .two{
+    font-size: 20px;
+    color: #697565;
+}
+article .two{
+    font-size: 20px;
+    background-color: #982B1C;
+    color:  #F2E8C6;
+    padding: 40px;
+    border-radius: 30px;
+    transition-duration: 0.3s ;
+}
+article .two:hover{
+    box-shadow:0  0 20px #982B1C;
+    transition-duration: 0.3s ;
+    padding: 45px;
+}
+article .one{
+    text-shadow:  0 0 20px #DAD4B5;;
+}
+figure .container{
+    display: flex;
+    justify-content: space-evenly;
+    color: #DAD4B5;
+}
+figure .container div{
+    border-style: dotted;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right:100px;
+    text-align: center;
+    border-color: #3C3D37;
+    border-width: 5px;
+}
+figure .container div p:hover{
+    text-shadow: 0 0 10px #DAD4B5;
+}
+figure .name{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    color:#ECDFCC ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background-color: black;
+    color: #F2E8C6;
+    box-shadow: 0 0 20px black;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer div p a{
+    text-decoration: none;
+    color: #F2E8C6;
+}
+footer div div{
+    margin-left: 20px;
+}
+footer div p:hover,footer div p a:hover{
+    color: #982B1C;
+}

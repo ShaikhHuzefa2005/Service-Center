@@ -1,0 +1,26 @@
+div{
+    color: #DAD4B5;
+    background-color: #697565;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    margin-top: 5px;
+}
+a{
+    background-color: #DAD4B5;
+    color: #697565;
+    text-decoration: none;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+body div:hover{
+    text-shadow:0 0 10px #982B1C;
+}
+h2{
+    color: #DAD4B5;
+    font-family: 'Courier New', Courier, monospace;
+}
